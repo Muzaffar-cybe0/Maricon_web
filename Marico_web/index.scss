@@ -1,0 +1,796 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: Inter,sans-serif;
+}
+img,button{
+     cursor: pointer;
+}
+.container{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     gap: 130px;
+     background-color: black;
+     header{
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          gap: 80px;
+          background-color: black;
+          nav{
+               width: 100%;
+               display: flex;
+               justify-content:space-around;
+               align-items: center;
+               gap: 230px;
+               border: 1px solid;
+               padding: 10px 0;
+               div{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center; 
+                    gap: 10px;
+               }
+               div:nth-child(1){
+                    img{
+                         width: 30px;
+                    }
+                    p{
+                         font-size: 25px;
+                         font-weight: 600;
+                         color: white;
+                    }
+               }
+               div:nth-child(2){
+                    gap: 30px;
+                    p{
+                         font-size: 13px;
+                         color: gray;
+                    }
+                    p:nth-child(1){
+                         display: flex;
+                         justify-content: center;
+                         align-items: center;
+                         gap: 5px; 
+                    }
+                    p:nth-child(3){
+                         color: dodgerblue;
+                    }
+               } 
+               div:nth-child(3){
+                    p{
+                         font-size: 13px;
+                         color: gray;
+                    }
+                    a{
+                         font-size: 14px;
+                         text-decoration: none;
+                         color: white;
+                         background-color: #326CF9;
+                         padding: 8px 10px;
+                         border-radius: 5px;
+                         transition: all 0.4s ease-in-out;
+                    }
+                    a:hover{
+                         background-color: rgb(1, 81, 160);
+                    }
+               } 
+          }
+          .main_heading{
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               flex-direction: column;
+               p{
+                    color: white;
+                    font-size: 80px;
+                    font-weight: 600;
+               }
+               p:nth-child(2){
+                    background: -webkit-linear-gradient(0deg, rgb(221, 71, 45) 0%, rgb(250, 107, 94) 35%, rgb(244, 191, 91) 100%);
+                    background-clip: text;
+                    -webkit-text-fill-color: transparent;
+               }
+          }
+     }
+     main{
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-color: rgb(0, 0, 0);
+          overflow: hidden;
+          .main-child1{
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               flex-direction: column;
+               gap: 120px;
+               .child1-1{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    gap: 30px;
+                    div:nth-child(1){
+                         display: flex;
+                         justify-content: center;
+                         align-items: center;
+                         p{
+                              width: 60%;
+                              font-size: 30px;
+                              color: white;
+                              font-weight: 600;
+                              text-align: center;
+                         }
+                    }
+                    div:nth-child(2){
+                         display: flex;
+                         justify-content: center;
+                         align-items: center;
+                         gap: 20px;
+                         button{
+                              font-size: 20px;
+                         }  
+                         button:nth-child(1){
+                              width: 200px;
+                              height: 60px;
+                              border: none;
+                              border-radius: 5px;
+                              color: white;
+                              background-color: #326CF9;
+                              transition: all 0.4s ease-in-out;
+                         }
+                         button:nth-child(1):hover{
+                              background-color: rgb(1, 81, 160);
+                         }
+                         button:nth-child(2){
+                              width: 200px;
+                              height: 60px;
+                              border: 1px solid transparent;
+                              box-shadow: 0 0 3px gray;
+                              border-radius: 5px;
+                              color: gray;
+                              background-color: transparent;
+                         }
+                    }
+                    div:nth-child(3){
+                         display: flex;
+                         justify-content: center;
+                         align-items: center;
+                         gap: 12px;
+                         margin-top: -15px;
+                         div:nth-child(1){
+                              width: 14.1px;
+                              height: 14.1px;
+                              background-color: rgb(4, 231, 4);
+                              border-radius: 10px;
+                              box-shadow:0px 0 0px 4px rgba(0, 128, 0, 0.478);
+                         }
+                         div:nth-child(2){
+                              display: flex;
+                              justify-content: center;
+                              align-items: center;
+                              span:nth-child(1){
+                                   color: white;
+                                   font-size: 20px;
+                              }  
+                              span:nth-child(2){
+                                   color: gray;
+                                   margin-left: -13px;
+                                   font-size: 20px;
+                              }  
+                         }
+                    } 
+               }
+               .child1-2{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    gap: 50px;
+                    .ch1_2-1{
+                         p{
+                              color: white;
+                              font-size: 65px;
+                              font-weight: 600;
+                         }
+                    }
+                    .ch1_2-2{
+                         display: flex;
+                         justify-content: center;
+                         align-items: center;
+                         gap: 135px;
+                         div{
+                              display: flex;
+                              justify-content: center;
+                              align-items: center;
+                              flex-direction: column;
+                              gap: 10px;
+                              div:nth-child(1){
+                              display: flex;
+                              justify-content: center;
+                              align-items: center;
+                              flex-direction: row;
+                              gap: 3px;
+                              img{
+                                   width: 27px;
+                              } 
+                                p{
+                                   font-size: 25px;
+                                   color: white;
+                                }
+                              }
+                              div:nth-child(2){
+                                   p{
+                                      font-size: 15px;
+                                      color: gray;
+                                   }
+                              }
+                         }
+                         div:nth-child(3){
+                              display: flex;
+                              justify-content: center;
+                              align-items: center;
+                              flex-direction: column;
+                              gap: 8px;
+                              div:nth-child(1){
+                              display: flex;
+                              justify-content: center;
+                              align-items: center;
+                              flex-direction: row;
+                              gap: 3px;
+                              img{
+                                   width: 32px;
+                              } 
+                                p{
+                                   font-size: 25px;
+                                   color: white;
+                                }
+                              }
+                              div:nth-child(2){
+                                   p{
+                                      font-size: 15px;
+                                      color: gray;
+                                   }
+                              }
+                         }
+                    }
+               }
+               .child1-3{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    gap: 2px;
+                    div:nth-child(1){
+                         display: flex;
+                         justify-content: center;
+                         align-items: center;
+                         flex-direction: column;
+                         gap: 10px;
+                         p:nth-child(1){
+                              color: dodgerblue;
+                         }
+                         p:nth-child(2){
+                              font-size: 55px;
+                              color: white;
+                              font-weight: 600;
+                         }
+                    }
+                    div:nth-child(2){
+                         display: flex;
+                         justify-content: center;
+                         align-items: center;
+                         flex-direction: column;
+                         gap: 20px;
+                         p{
+                              text-align: center;
+                              width: 75%;
+                              color: rgba(128, 128, 128, 0.569);
+                              font-weight: 200;
+                              font-size: 20px;
+                         }
+                         button{
+                              border: none;
+                              background-color: transparent;
+                              padding: 15px 25px;
+                              color: gray;
+                              border-radius: 5px;
+                              box-shadow: 0px 0 0 1px gray;
+                              transition: all 0.4s ease-in-out;
+                         }
+                         button:hover{
+                              border: none;
+                              background-color: rgba(113, 113, 113, 0.398);
+                              padding: 15px 25px;
+                              color: gray;
+                              border-radius: 5px;
+                              box-shadow: 0px 0 0 1px gray;
+                         }
+                    }
+               }
+               .child1-4{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 100px;
+                    zoom: 0.8;
+                    margin-right: -80px;
+                    .child1_4-1{
+                         display: flex;
+                         flex-direction: column;
+                         gap: 50px;
+                         zoom: 1.1;
+                         div:nth-child(1){
+                              p{
+                                   font-size: 25px;
+                                   color: white;
+                              }
+                         }
+                         div:nth-child(2){
+                              p{
+                                   color: white;
+                                   font-size: 65px;
+                              }
+                              p:nth-child(2){
+                                   color: white;
+                                   span{
+                                        color: dodgerblue;
+                                   }
+                              }
+                         }
+                         div:nth-child(3){
+                              display: flex;
+                              flex-direction: column;
+                              gap: 10px;
+                             div{
+                              display: flex;
+                              align-items: center;
+                              gap: 10px;
+                              p{
+                                   font-size: 20px;
+                              }
+                              p:nth-child(1){
+                                   font-size: 20px;
+                                   background-color: rgb(66, 65, 65);
+                                   padding: 4px 10px;
+                                   border-radius: 50px;
+                              }
+                             }
+                         }
+                         div:nth-child(4){
+                              display: flex;
+                              gap: 20px;
+                              button{
+                                  width: 190px;
+                                  height: 55px;
+                                  font-size: 17px;
+                                  border: none;
+                                  background: #326CF9;
+                                  border-radius: 10px;
+                                  color: white;
+                              }
+                              button:nth-child(2){
+                                   background-color: rgba(128, 128, 128, 0.13);
+                                   box-shadow: 0 0 0 1px gray;
+                                   color: gray;
+                                   
+                              }
+                         }
+                    }
+                    .child1_4-2{
+                         margin-top: 70px;
+                         img{
+                              width:800px;
+                              height: 640px;
+                         }
+                    }
+               }
+               .child1-5{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    gap: 10px;
+                    div:nth-child(1){
+                         display: flex;
+                         justify-content: center;
+                         align-items: center;
+                         flex-direction: column;
+                         p:nth-child(1){font-size: 15px; color:#326CF9; font-weight: 600;}
+                         p:nth-child(2){font-size: 55px; color: white; font-weight: 300;}
+                    }
+                    div:nth-child(2){
+                         display: flex;
+                         justify-content: center;
+                         align-items: center;
+                         text-align: center;
+                         p{
+                              width: 74%;
+                              color: gray;
+                              font-size: 20px;
+                         }
+                    }
+               }
+               .child1-6{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    gap: 30px;
+                    div:nth-child(1){
+                    display: flex;
+                    gap: 14px;
+                         .child1_6-1{
+                              width: 430px;
+                              height: 350px;
+                              padding: 0 30px;
+                              display: flex;
+                              justify-content: center;
+                              flex-direction: column;
+                              gap: 42px;
+                              background-color: rgb(17, 16, 16);
+                              zoom: 1.1;
+                              div:nth-child(1){
+                                   display: flex;
+                                   justify-content: center;
+                                   flex-direction: column;
+                                   gap: 22px;
+                                   div:nth-child(1){
+                                        p:nth-child(1){
+                                             color: rgb(7, 242, 7);
+                                        }
+                                   }
+                                   div:nth-child(2){
+                                      
+                                        p:nth-child(1){
+                                             color: gray;
+                                             font-size: 42px;
+                                             font-weight: 600;
+                                        }
+                                        p:nth-child(2){
+                                             color: white;
+                                             font-size: 42px;
+                                             font-weight: 600;
+                                        }
+                                   }
+                              }
+                              div:nth-child(2){
+                                   img{
+                                        margin-left: 17px;
+                                        margin-bottom: -26px;
+                                        width: 450px;
+                                        height:150px;
+                                        
+                                   }
+                              }
+                         }
+                         .child1_6-2{
+                              display: flex;
+                              flex-direction: column;
+                              gap: 50px;
+                              width: 430px;
+                              height: 350px;
+                              padding: 20px 30px;
+                              background-color: rgb(17, 16, 16);
+                              zoom: 1.1;
+                              z-index: 99;
+                          div:nth-child(1){
+                                   p{
+                                        color: rgb(7, 242, 7);
+                                   }
+                         }
+                          div:nth-child(2){
+                              p:nth-child(1){
+                                   color: gray;
+                                   font-size: 42px;
+                                   font-weight: 600;
+                              }
+                              p:nth-child(2){
+                                   color: gray;
+                                   font-size: 42px;
+                                   font-weight: 600;
+                              }
+                              p:nth-child(3){
+                                   color: white;
+                                   font-size: 42px;
+                                   font-weight: 600;
+                              }
+                              
+                         }
+                        
+                         }
+                    }
+                    div:nth-child(2){
+                         button{
+                              border: none;
+                              background-color: #326CF9;
+                              padding: 14px 55px;
+                              border-radius: 8px;
+                              color: white;
+                              font-size: 20px;
+                         }
+                    }
+               }
+               .child1-7{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    gap: 10px;
+                    div:nth-child(1){
+                         display: flex;
+                         justify-content: center;
+                         align-items: center;
+                         flex-direction: column;
+                         gap: 5px;
+                         p:nth-child(1){font-size: 15px; color:#326CF9; font-weight: 600;}
+                         p:nth-child(2){font-size: 45px; color: white; font-weight: 300;}
+                    }
+                    div:nth-child(2){
+                         display: flex;
+                         justify-content: center;
+                         align-items: center;
+                         text-align: center;
+                         p{
+                              width: 54%;
+                              color: gray;
+                              font-size: 20px;
+                         }
+                    }
+               }
+               .child1-8{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 100px;
+                    zoom: 0.8;
+                    margin-right: -80px;
+                    .child1_8-1{
+                         display: flex;
+                         flex-direction: column;
+                         gap: 50px;
+                         zoom: 1.1;
+                         div:nth-child(1){
+                              p{
+                                   font-size: 25px;
+                                   color: white;
+                              }
+                         }
+                         div:nth-child(2){
+                              p{
+                                   color: white;
+                                   font-size: 65px;
+                              }
+                              p:nth-child(2){
+                                   color: white;
+                                   span{
+                                        color: dodgerblue;
+                                   }
+                              }
+                         }
+                         div:nth-child(3){
+                              display: flex;
+                              flex-direction: column;
+                              gap: 10px;
+                             div{
+                              display: flex;
+                              align-items: center;
+                              gap: 10px;
+                              p{
+                                   font-size: 20px;
+                              }
+                              p:nth-child(1){
+                                   font-size: 20px;
+                                   background-color: rgb(66, 65, 65);
+                                   padding: 4px 10px;
+                                   border-radius: 50px;
+                              }
+                             }
+                         }
+                         div:nth-child(4){
+                              display: flex;
+                              gap: 20px;
+                              button{
+                                  width: 190px;
+                                  height: 55px;
+                                  font-size: 17px;
+                                  border: none;
+                                  background: #326CF9;
+                                  border-radius: 10px;
+                                  color: white;
+                              }
+                              button:nth-child(2){
+                                   background-color: rgba(128, 128, 128, 0.13);
+                                   box-shadow: 0 0 0 1px gray;
+                                   color: gray;
+                                   
+                              }
+                         }
+                    }
+                    .child1_8-2{
+                         margin-top: 70px;
+                         img{
+                              width:800px;
+                              height: 640px;
+                         }
+                    }
+               }
+               .child1-9{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    gap: 35px;
+                    div:nth-child(1){
+                         display: flex;
+                         justify-content: center;
+                         align-items: center;
+                         flex-direction: column;
+                         p{
+                           color: white;
+                           font-size: 45px;
+                           font-weight: 600;
+                         }
+                    }
+                    div:nth-child(2){
+                         display: flex;
+                         justify-content: center;
+                         align-items: center;
+                         img{
+                              width: 96%;
+                         }
+                    }
+               }
+               .child1-10{
+                    width: 100%;
+                    height: 560px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-image: url(assets/Image4.png);
+                    background-position: center;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    p{
+                         width: 70%;
+                         text-align: center;
+                         color: white;
+                         font-size: 55px;
+                         font-weight: 600;
+                    }
+               }
+               .child1-11{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    gap: 20px;
+                    .child1_11-1{
+                         img{
+                              width: 100px;
+                         }
+                    }
+                    .child1_11-2{
+                         display: flex;
+                         justify-content: center;
+                         align-items: center;
+                         flex-direction: column;
+                        p:nth-child(1){
+                         color: white;
+                         font-size: 55px;
+                         font-weight: 600;
+                        }
+                        p:nth-child(2){
+                         color: white;
+                         font-size: 25px;
+                         font-weight: 300;
+                        }
+                    }
+                    .child1_11-3{
+                         display: flex;
+                         justify-content: center;
+                         align-items: center;
+                         flex-direction: column;
+                         gap: 15px;
+                         button{
+                              width: 260px;
+                              height: 53px;
+                              border: none;
+                              background-color: #326CF9;
+                              color: white;
+                              border-radius: 10px;
+                              font-size: 18px;
+                              transition: all 0.4s ease-in-out;
+                         }
+                         button:hover{background-color: rgb(1, 81, 160);}
+                         div{
+                              display: flex;
+                              justify-content: center;
+                              align-items: center;
+                              gap: 15px;
+                              div:nth-child(1){
+                                   width: 14.1px;
+                                   height: 14.1px;
+                                   background-color: rgb(4, 231, 4);
+                                   border-radius: 10px;
+                                   box-shadow:0px 0 0px 4px rgba(0, 128, 0, 0.478);
+                              }
+                              div:nth-child(2){
+                                   display: flex;
+                                   justify-content: center;
+                                   align-items: center;
+                                   gap: 20px;
+                                   span:nth-child(1){
+                                        color: white;
+                                        font-size: 22px;
+                                   }  
+                                   span:nth-child(2){
+                                        color: gray;
+                                        margin-left: -13px;
+                                        font-size: 22px;
+                                   }  
+                              }
+                         }
+                    }
+                    
+               }
+          }
+     }
+     footer{
+          display: flex;
+          justify-content:center;
+          align-items: center;
+          gap: 770px;
+          padding-top: 20px;
+          padding-left: 20px;
+          padding-right: 20px;
+          padding-bottom: 70px;
+          .ft_1{
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           flex-direction: column;    
+           div{
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               gap: 10px;
+               img{
+                    width: 35px;
+               }
+               p{
+                    font-size: 25px;
+                    font-weight: 600;
+                    color: white;
+               }
+           }
+           a{
+               text-decoration: none;
+               color: gray;
+                font-size: 18px;
+                font-weight: 100;
+           }
+          }
+          .ft_2{
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               gap: 30px;
+               a{
+                    text-decoration: none;
+                    color: gray;
+                    font-size: 18px;
+               }
+               a:nth-child(2){
+                    color: #326CF9;
+               }
+          }
+     }
+}
